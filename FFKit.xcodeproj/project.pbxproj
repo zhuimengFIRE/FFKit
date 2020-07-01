@@ -17,6 +17,7 @@
 		43090EB32498763400758E0D /* FFLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 43090EB22498763400758E0D /* FFLabel.m */; };
 		43C99AB324AC698C005C2AC4 /* FFButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C99AB224AC698C005C2AC4 /* FFButton.m */; };
 		43C99AB624AC863B005C2AC4 /* FFTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C99AB524AC863B005C2AC4 /* FFTextField.m */; };
+		43C99ABA24AC92B6005C2AC4 /* FFTableViewReloadTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C99AB924AC92B6005C2AC4 /* FFTableViewReloadTestController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		43C99AB224AC698C005C2AC4 /* FFButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFButton.m; sourceTree = "<group>"; };
 		43C99AB424AC863B005C2AC4 /* FFTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFTextField.h; sourceTree = "<group>"; };
 		43C99AB524AC863B005C2AC4 /* FFTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFTextField.m; sourceTree = "<group>"; };
+		43C99AB824AC92B6005C2AC4 /* FFTableViewReloadTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFTableViewReloadTestController.h; sourceTree = "<group>"; };
+		43C99AB924AC92B6005C2AC4 /* FFTableViewReloadTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFTableViewReloadTestController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,12 +74,27 @@
 		43090E962498760100758E0D /* FFKit */ = {
 			isa = PBXGroup;
 			children = (
+				43C99AB724AC8DBC005C2AC4 /* FFKit */,
 				43090E972498760100758E0D /* AppDelegate.h */,
 				43090E982498760100758E0D /* AppDelegate.m */,
 				43090E9A2498760100758E0D /* SceneDelegate.h */,
 				43090E9B2498760100758E0D /* SceneDelegate.m */,
 				43090E9D2498760100758E0D /* ViewController.h */,
 				43090E9E2498760200758E0D /* ViewController.m */,
+				43C99AB824AC92B6005C2AC4 /* FFTableViewReloadTestController.h */,
+				43C99AB924AC92B6005C2AC4 /* FFTableViewReloadTestController.m */,
+				43090EA02498760200758E0D /* Main.storyboard */,
+				43090EA32498760400758E0D /* Assets.xcassets */,
+				43090EA52498760400758E0D /* LaunchScreen.storyboard */,
+				43090EA82498760400758E0D /* Info.plist */,
+				43090EA92498760400758E0D /* main.m */,
+			);
+			path = FFKit;
+			sourceTree = "<group>";
+		};
+		43C99AB724AC8DBC005C2AC4 /* FFKit */ = {
+			isa = PBXGroup;
+			children = (
 				43090EB02498762100758E0D /* FFKit.h */,
 				43090EB12498763400758E0D /* FFLabel.h */,
 				43090EB22498763400758E0D /* FFLabel.m */,
@@ -84,11 +102,6 @@
 				43C99AB224AC698C005C2AC4 /* FFButton.m */,
 				43C99AB424AC863B005C2AC4 /* FFTextField.h */,
 				43C99AB524AC863B005C2AC4 /* FFTextField.m */,
-				43090EA02498760200758E0D /* Main.storyboard */,
-				43090EA32498760400758E0D /* Assets.xcassets */,
-				43090EA52498760400758E0D /* LaunchScreen.storyboard */,
-				43090EA82498760400758E0D /* Info.plist */,
-				43090EA92498760400758E0D /* main.m */,
 			);
 			path = FFKit;
 			sourceTree = "<group>";
@@ -165,6 +178,7 @@
 			files = (
 				43090E9F2498760200758E0D /* ViewController.m in Sources */,
 				43090E992498760100758E0D /* AppDelegate.m in Sources */,
+				43C99ABA24AC92B6005C2AC4 /* FFTableViewReloadTestController.m in Sources */,
 				43090EAA2498760400758E0D /* main.m in Sources */,
 				43C99AB624AC863B005C2AC4 /* FFTextField.m in Sources */,
 				43090E9C2498760100758E0D /* SceneDelegate.m in Sources */,
