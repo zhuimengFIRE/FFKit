@@ -12,6 +12,7 @@
 #import "FFLabel.h"
 #import "FFButton.h"
 #import "FFTextField.h"
+#import "FFImageView.h"
 
 
 

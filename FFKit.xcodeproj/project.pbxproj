@@ -15,6 +15,8 @@
 		43090EA72498760400758E0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43090EA52498760400758E0D /* LaunchScreen.storyboard */; };
 		43090EAA2498760400758E0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43090EA92498760400758E0D /* main.m */; };
 		43090EB32498763400758E0D /* FFLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 43090EB22498763400758E0D /* FFLabel.m */; };
+		435629F224AD77AC001E5ECB /* FFImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 435629F124AD77AC001E5ECB /* FFImageView.m */; };
+		4357CF3424AF325300B4E695 /* FFScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4357CF3224AF325300B4E695 /* FFScrollLabel.m */; };
 		43C99AB324AC698C005C2AC4 /* FFButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C99AB224AC698C005C2AC4 /* FFButton.m */; };
 		43C99AB624AC863B005C2AC4 /* FFTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C99AB524AC863B005C2AC4 /* FFTextField.m */; };
 		43C99ABA24AC92B6005C2AC4 /* FFTableViewReloadTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C99AB924AC92B6005C2AC4 /* FFTableViewReloadTestController.m */; };
@@ -36,6 +38,10 @@
 		43090EB02498762100758E0D /* FFKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFKit.h; sourceTree = "<group>"; };
 		43090EB12498763400758E0D /* FFLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFLabel.h; sourceTree = "<group>"; };
 		43090EB22498763400758E0D /* FFLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFLabel.m; sourceTree = "<group>"; };
+		435629F024AD77AC001E5ECB /* FFImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFImageView.h; sourceTree = "<group>"; };
+		435629F124AD77AC001E5ECB /* FFImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFImageView.m; sourceTree = "<group>"; };
+		4357CF3224AF325300B4E695 /* FFScrollLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFScrollLabel.m; sourceTree = "<group>"; };
+		4357CF3324AF325300B4E695 /* FFScrollLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFScrollLabel.h; sourceTree = "<group>"; };
 		43C99AB124AC698C005C2AC4 /* FFButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFButton.h; sourceTree = "<group>"; };
 		43C99AB224AC698C005C2AC4 /* FFButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFButton.m; sourceTree = "<group>"; };
 		43C99AB424AC863B005C2AC4 /* FFTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFTextField.h; sourceTree = "<group>"; };
@@ -102,6 +108,10 @@
 				43C99AB224AC698C005C2AC4 /* FFButton.m */,
 				43C99AB424AC863B005C2AC4 /* FFTextField.h */,
 				43C99AB524AC863B005C2AC4 /* FFTextField.m */,
+				435629F024AD77AC001E5ECB /* FFImageView.h */,
+				435629F124AD77AC001E5ECB /* FFImageView.m */,
+				4357CF3324AF325300B4E695 /* FFScrollLabel.h */,
+				4357CF3224AF325300B4E695 /* FFScrollLabel.m */,
 			);
 			path = FFKit;
 			sourceTree = "<group>";
@@ -181,6 +191,8 @@
 				43C99ABA24AC92B6005C2AC4 /* FFTableViewReloadTestController.m in Sources */,
 				43090EAA2498760400758E0D /* main.m in Sources */,
 				43C99AB624AC863B005C2AC4 /* FFTextField.m in Sources */,
+				4357CF3424AF325300B4E695 /* FFScrollLabel.m in Sources */,
+				435629F224AD77AC001E5ECB /* FFImageView.m in Sources */,
 				43090E9C2498760100758E0D /* SceneDelegate.m in Sources */,
 				43090EB32498763400758E0D /* FFLabel.m in Sources */,
 				43C99AB324AC698C005C2AC4 /* FFButton.m in Sources */,
