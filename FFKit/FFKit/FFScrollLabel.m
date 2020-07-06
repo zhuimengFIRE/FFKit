@@ -181,7 +181,7 @@
     }
     self.contentView.frame = frame;
 }
-- (void)destory {
+- (void)stopScoll {
     if (self.timer) {
         [self.timer invalidate];
         self.timer = nil;

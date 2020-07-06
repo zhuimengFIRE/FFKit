@@ -22,7 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)startScoll;
 
 // 销毁 消除内部的timer方法
-- (void)destory;
+- (void)stopScoll;
 
 @end
 

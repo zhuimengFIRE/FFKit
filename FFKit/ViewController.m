@@ -31,6 +31,9 @@
     self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"FFKit";
     
+    UIImageView *imageView = [[UIImageView alloc] init];
+    imageView.layer.cornerRadius = 2;
+    imageView.layer.masksToBounds = YES;
     
     
     
