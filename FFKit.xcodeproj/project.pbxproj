@@ -21,6 +21,13 @@
 		43C99AB324AC698C005C2AC4 /* FFButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C99AB224AC698C005C2AC4 /* FFButton.m */; };
 		43C99AB624AC863B005C2AC4 /* FFTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C99AB524AC863B005C2AC4 /* FFTextField.m */; };
 		43C99ABA24AC92B6005C2AC4 /* FFTableViewReloadTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C99AB924AC92B6005C2AC4 /* FFTableViewReloadTestController.m */; };
+		68EABF0F24F79E5C0027D346 /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EABF0E24F79E5C0027D346 /* UITextView+Placeholder.m */; };
+		68EABF1324F79EEC0027D346 /* UIApplication+FFVisible.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EABF1124F79EEC0027D346 /* UIApplication+FFVisible.m */; };
+		68EABF1624F79F4A0027D346 /* UIViewController+FFCameraAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EABF1524F79F4A0027D346 /* UIViewController+FFCameraAccess.m */; };
+		68EABF1924F79FB60027D346 /* NSMutableArray+FFEmptyHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EABF1724F79FB60027D346 /* NSMutableArray+FFEmptyHandle.m */; };
+		68EABF1C24F79FC50027D346 /* NSArray+FFEmptyHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EABF1B24F79FC50027D346 /* NSArray+FFEmptyHandle.m */; };
+		68EABF1F24F79FDF0027D346 /* NSObject+FFSwizzleMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EABF1D24F79FDF0027D346 /* NSObject+FFSwizzleMethod.m */; };
+		68EABF2224F7A1130027D346 /* FFCutImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EABF2124F7A1130027D346 /* FFCutImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +58,20 @@
 		43C99AB524AC863B005C2AC4 /* FFTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFTextField.m; sourceTree = "<group>"; };
 		43C99AB824AC92B6005C2AC4 /* FFTableViewReloadTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFTableViewReloadTestController.h; sourceTree = "<group>"; };
 		43C99AB924AC92B6005C2AC4 /* FFTableViewReloadTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFTableViewReloadTestController.m; sourceTree = "<group>"; };
+		68EABF0D24F79E5C0027D346 /* UITextView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
+		68EABF0E24F79E5C0027D346 /* UITextView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
+		68EABF1124F79EEC0027D346 /* UIApplication+FFVisible.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+FFVisible.m"; sourceTree = "<group>"; };
+		68EABF1224F79EEC0027D346 /* UIApplication+FFVisible.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+FFVisible.h"; sourceTree = "<group>"; };
+		68EABF1424F79F490027D346 /* UIViewController+FFCameraAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FFCameraAccess.h"; sourceTree = "<group>"; };
+		68EABF1524F79F4A0027D346 /* UIViewController+FFCameraAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FFCameraAccess.m"; sourceTree = "<group>"; };
+		68EABF1724F79FB60027D346 /* NSMutableArray+FFEmptyHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+FFEmptyHandle.m"; sourceTree = "<group>"; };
+		68EABF1824F79FB60027D346 /* NSMutableArray+FFEmptyHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+FFEmptyHandle.h"; sourceTree = "<group>"; };
+		68EABF1A24F79FC40027D346 /* NSArray+FFEmptyHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+FFEmptyHandle.h"; sourceTree = "<group>"; };
+		68EABF1B24F79FC50027D346 /* NSArray+FFEmptyHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FFEmptyHandle.m"; sourceTree = "<group>"; };
+		68EABF1D24F79FDF0027D346 /* NSObject+FFSwizzleMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FFSwizzleMethod.m"; sourceTree = "<group>"; };
+		68EABF1E24F79FDF0027D346 /* NSObject+FFSwizzleMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FFSwizzleMethod.h"; sourceTree = "<group>"; };
+		68EABF2024F7A1130027D346 /* FFCutImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFCutImage.h; sourceTree = "<group>"; };
+		68EABF2124F7A1130027D346 /* FFCutImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFCutImage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +104,7 @@
 		43090E962498760100758E0D /* FFKit */ = {
 			isa = PBXGroup;
 			children = (
+				68EABF1024F79E830027D346 /* other */,
 				4352871F24B2C838002A037F /* category */,
 				43C99AB724AC8DBC005C2AC4 /* FFKit */,
 				43090E972498760100758E0D /* AppDelegate.h */,
@@ -107,6 +129,16 @@
 			children = (
 				4352871C24B2C810002A037F /* NSString+helper.h */,
 				4352871D24B2C810002A037F /* NSString+helper.m */,
+				68EABF1224F79EEC0027D346 /* UIApplication+FFVisible.h */,
+				68EABF1124F79EEC0027D346 /* UIApplication+FFVisible.m */,
+				68EABF1424F79F490027D346 /* UIViewController+FFCameraAccess.h */,
+				68EABF1524F79F4A0027D346 /* UIViewController+FFCameraAccess.m */,
+				68EABF1824F79FB60027D346 /* NSMutableArray+FFEmptyHandle.h */,
+				68EABF1724F79FB60027D346 /* NSMutableArray+FFEmptyHandle.m */,
+				68EABF1A24F79FC40027D346 /* NSArray+FFEmptyHandle.h */,
+				68EABF1B24F79FC50027D346 /* NSArray+FFEmptyHandle.m */,
+				68EABF1E24F79FDF0027D346 /* NSObject+FFSwizzleMethod.h */,
+				68EABF1D24F79FDF0027D346 /* NSObject+FFSwizzleMethod.m */,
 			);
 			path = category;
 			sourceTree = "<group>";
@@ -125,8 +157,19 @@
 				435629F124AD77AC001E5ECB /* FFImageView.m */,
 				4357CF3324AF325300B4E695 /* FFScrollLabel.h */,
 				4357CF3224AF325300B4E695 /* FFScrollLabel.m */,
+				68EABF2024F7A1130027D346 /* FFCutImage.h */,
+				68EABF2124F7A1130027D346 /* FFCutImage.m */,
 			);
 			path = FFKit;
+			sourceTree = "<group>";
+		};
+		68EABF1024F79E830027D346 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				68EABF0D24F79E5C0027D346 /* UITextView+Placeholder.h */,
+				68EABF0E24F79E5C0027D346 /* UITextView+Placeholder.m */,
+			);
+			path = other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,11 +248,18 @@
 				4352871E24B2C810002A037F /* NSString+helper.m in Sources */,
 				43090EAA2498760400758E0D /* main.m in Sources */,
 				43C99AB624AC863B005C2AC4 /* FFTextField.m in Sources */,
+				68EABF1C24F79FC50027D346 /* NSArray+FFEmptyHandle.m in Sources */,
 				4357CF3424AF325300B4E695 /* FFScrollLabel.m in Sources */,
+				68EABF0F24F79E5C0027D346 /* UITextView+Placeholder.m in Sources */,
 				435629F224AD77AC001E5ECB /* FFImageView.m in Sources */,
 				43090E9C2498760100758E0D /* SceneDelegate.m in Sources */,
 				43090EB32498763400758E0D /* FFLabel.m in Sources */,
+				68EABF1F24F79FDF0027D346 /* NSObject+FFSwizzleMethod.m in Sources */,
+				68EABF1924F79FB60027D346 /* NSMutableArray+FFEmptyHandle.m in Sources */,
+				68EABF1324F79EEC0027D346 /* UIApplication+FFVisible.m in Sources */,
 				43C99AB324AC698C005C2AC4 /* FFButton.m in Sources */,
+				68EABF2224F7A1130027D346 /* FFCutImage.m in Sources */,
+				68EABF1624F79F4A0027D346 /* UIViewController+FFCameraAccess.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
